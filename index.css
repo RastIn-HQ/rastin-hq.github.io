@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+body{
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(68, 120, 255, 0.63), rgba(68, 120, 255, 0.63)), url(assets/images/bg.png);
+}
+.rastinLogo{
+    background: #FFFFFF;
+    margin-top: 75px;
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.descText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social{
+    margin-top: 72px;
+}
+.social a{
+    margin: 10px;
+}
+.social a img{
+    height: 50px;
+}
+.stayTuned {
+    font-family: 'Poppins';
+    margin-top: 18px;
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+@media only screen and (max-width: 600px) {
+    .rastinLogo {
+        margin-top: 175px;
+        width: 75%;
+        background: #FFFFFF;
+    }
+    .descText{
+        font-size: 18px;
+    }
+    .social{
+        margin-top: 38px;
+    }
+    .stayTuned{
+        font-size: 18px;
+    }
+  }
